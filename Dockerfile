@@ -50,3 +50,4 @@ RUN wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor 
 
 # List the contents of the /app directory
 RUN ls -a /app
+CMD ["./start-vnc.sh"]
