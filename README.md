@@ -1,7 +1,6 @@
-Ubuntu docker container con vnc
-
+#Ubuntu docker container con vnc
 Creado por Alex y Adam
-Instrucciones para el correcto funcionamiento del contenedor:
+##Instrucciones para el correcto funcionamiento del contenedor:
 1. Descargar el Dockerfile proporcionado y el script
 2. Ejecutar en la linia de comandos lo siguiente:
     docker build -t ubuntu-vnc-vscode .
